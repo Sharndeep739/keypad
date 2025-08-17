@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(85, 85, 85);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: -200px;
+}
+.out{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 25px;
+    transform: scale(0.80);
+    position: relative;
+    top: 50px;
+}
+.row1{
+    height: 20%;
+    width: 95%;
+    margin: 20px 0px 0px 10px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row2{
+    height: 20%;
+    width: 95%;
+    margin: 7px 0px 0px 10px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row3{
+    height: 20%;
+    width: 95%;
+    margin: 7px 0px 0px 10px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+
+.row1 button{
+    height: 100px;
+    min-width: 110px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.row1 button:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.row2 button{
+    height: 100px;
+    min-width: 110px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.row2 button:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.row3 button{
+    height: 100px;
+    min-width: 110px;
+    background-color:transparent;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 30px;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.row3 button:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.zero{
+    height: 100px;
+    width: 110px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 193px;
+    top: 10px;
+}
+.zero:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.hass{
+    height: 100px;
+    width: 110px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 10px;
+    right: 70px;
+}
+.hass:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+.star{
+    height: 100px;
+    width: 110px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    box-shadow: -7px -7px 7px rgba(88, 88, 88, 0.4), 7px 7px 7px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 110px;
+}
+.star:active{
+    box-shadow: inset -7px -7px 7px rgba(109, 109, 109, 0.4), inset 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+
